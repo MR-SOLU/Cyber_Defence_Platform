@@ -1,0 +1,39 @@
+.vercel
+.env*
+
+# Vercel local configuration
+.vercel/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python and test tooling
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.backup
+BackEnd/app_backup.py
